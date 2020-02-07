@@ -1,0 +1,47 @@
+* {
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: Red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button:active {
+  background-color: rgb(28, 28, 146);
+  border: blue;
+}
+
+form {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+}
+
+form > button {
+  margin-top: 10px;
+}
+
+ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+li > button {
+  margin-left: 10px;
+}
